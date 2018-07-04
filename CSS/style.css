@@ -1,12 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+html, body{
+    margin 0;
+    height: 100%;
+    width:100%;
+}
 body {
-    background: linear-gradient(white, lightblue);
+    font-family: 'PT Sans', sans-serif;
 }
 
-.header {
-    background-color: lightblue;
-    padding: 20px 10px;
+header {
+    background:white;
+    padding:5px;
+}
+
+#personality {
+    background-color: mediumpurple;
+    padding: 10px 10px;
+    margin: 10px;
+    float:left;
+    width: 300px;
+    height: 600px;
+}
+
+#tuition {
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 800px;
+    float:left;
+}
+
+#languages {
+    background-color:hotpink;
+    padding: 10px 10px;
+    margin:10px;
+    float: right;
+    width: 300px;
+    height: 600px;
+
 }
 
 p{
+    margin:2px;
+    padding:2px
+}
 
+footer {
+    display:block;
+    background: white;
+    padding:5px;
+    position:absolute;
+    bottom:0;
+    padding-left:5%
+    box-sizing: border-box;
+}
 }
